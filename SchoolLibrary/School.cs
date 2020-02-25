@@ -45,9 +45,9 @@ namespace SchoolLibrary
         //    return result;
         //}
 
-        public float AverageThreeScores(float a, float b, float c) => (a + b + c) / 3;
+        public static float AverageThreeScores(float a, float b, float c) => (a + b + c) / 3;
 
-        public int AverageThreeScores(int a, int b, int c)
+        public static int AverageThreeScores(int a, int b, int c)
         {
             var result = (a + b + c) / 3;
             return result;
